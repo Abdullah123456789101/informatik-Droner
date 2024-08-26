@@ -18,3 +18,6 @@ afsnit 1 tello drone
     motion censor, den ser hvor du går hen, også følger efter dig.
     
     Vi valgte så  ideen, at dronen vil følge efter dig, via et kamera. Et slags motion censor. 
+
+    ![image](https://github.com/user-attachments/assets/aa4fc45e-ef59-4e9d-b961-c1c589794bd8)
+
