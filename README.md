@@ -1,3 +1,4 @@
+# Logbog
 # informatik-Droner
 afsnit 1 tello drone
    3-lags modellen er en metode til at undersøge/analysere et produkt:
@@ -20,4 +21,5 @@ afsnit 1 tello drone
     Vi valgte så  ideen, at dronen vil følge efter dig, via et kamera. Et slags motion censor. 
 
     ![image](https://github.com/user-attachments/assets/aa4fc45e-ef59-4e9d-b961-c1c589794bd8)
-
+# linux command eller SSH 13-03-2025
+Ved ikke hvad det er, og hvordan man starter det. Søgte på det men det var lykkes ikke. Derfor begyndte jeg bare på cybermesterskabene hvor jeg forsat fra sidst.
