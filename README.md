@@ -43,11 +43,57 @@ Vi blev jo også introduceret til brugertest. Vores brugertest bestod af nogle r
 Her er et billede af ansigt genkednelse prgrammet når det genkender et ansigt:
 <img width="819" height="541" alt="image" src="https://github.com/user-attachments/assets/a262d6ee-c898-4b9f-93ec-190bcb551b13" />
 
-Her er et link til repositoriet: https://github.com/Tobias-Henriksen/TelloDroneSamarbejde
+Her er et link til vores repository: https://github.com/Tobias-Henriksen/TelloDroneSamarbejde
+
+
+# Databaser 05/12/2024 til 13/12/2024
+Her blev vi introduceret til falsk og websever, dog gik vi ikke i gang med noget rigtigt. Det var bare mark der yappede om masser af ting. Han talte om forskellige http kald, såsom get,post,put, osv. Han talte også om endpoint og hvordan det giver client mulighed for at læse og tilføj data på serveren.
+
+# Kryptering 10/01/2025 til 21/02/2025
+Her blev vi introduceret til kryptering. Vi lærte de forskellige former af kryptering, såsom asymetriske og symetriske krypteringsalgoritmer, private og offtenlig nøgler, osv. Efter det skulle vi så prøve at kode noget RSA. Hvor vi skulle prøve at kryptere en besked og derefter dekryptere. Her er noget simpelt kode som viser det:
+
+import rsa
+
+Generér nøgler (1024 bit)
+public_key, private_key = rsa.newkeys(1024)
+
+Besked
+message = "Hello RSA!"
+
+Krypter med PUBLIC KEY
+cipher = rsa.encrypt(message.encode(), public_key)
+
+Dekrypter med PRIVATE KEY
+plaintext = rsa.decrypt(cipher, private_key).decode()
+
+print("Cipher:", cipher)
+print("Decoded:", plaintext)
+
+output:
+Cipher: b'.\xb8\x1d\x89\xa1\xb9\x98:W\x19\x95\xff\xe2\x9c\xb4v\x894\xffkD\xeb\xf2\x112$;\xd8\xc2N\x0bu\xe2\xf1\xcb\xed\x05Fu\xa1\xe8mbr\x9c\xd9\x02E\xd4o`~\xe5-\xec\x82\xbd#1\xe4O\xb2\xfa\xdd]\xaeScM\x84\x1aS#?[BhaG\x159\x05\xf6\xd1xv\xce\xa5\xect*\xb8\xa2G\xb7\x83e\xe99\x01\xd5\x91\xf9\xd4Z\x8b\xbe\xd2}\x11\x8b\xd1\x865\x0c\xbf\x07*3\x00\xe2\xd2\xb4p?h\x81('
+Decoded: Hello RSA!
+
+Vi havde også et projekt i dette forløb, hvor vi skulle prøve at komme op med et program som skulle kryptere bedskeder. Mig og min gruppe valgte i starten med at prøve at kryptere beskeder over lyd, dog viste det sig at det var for svært. Så vi valgte at prøve stenografi. Her brugte vi LSB metoden, hvor vi ændre RGB farveværdiner for en bit, hvis ændring ikke kunne ses via øje, men computere kan så nemt se og dekryptere beskeden. Her er et link til vores repository: https://github.com/Ag-chr/SIGINT-projekt. 
+
+
+
+# linux command eller SSH 13-03-2025 til 27/03/2025
+Her prøvet vi at bruge SSH til at skrive krypterede beskeder til hinanden. Jeg skrev for eksempel til mark. 
+
+# Teachablemachine 05/05/2025 til 16/05/2025
+Vi blev introduceret til machine learning. Hvor vi skulle bruge google teachable machine til at gøre noget. Mig og min gruppe valgte at lære den hvornår brugeren laver forhand eller backhand i bordtennis. Det gjorde ved at give den masser af billede af den røde del af bordtennis battet da det er tradionelt den man bruge som forhand. Og sort til backhand. Vi prøvde med bevægelser i starten, men det kunne den ikke da bevægelserne var alt for hurtigt for den. Her er et billede af det:
+<img width="639" height="704" alt="image" src="https://github.com/user-attachments/assets/2f999e0b-2431-4e3e-877e-838b312be057" />
+
+# API 21/08/2025 til 5/11/2025
+I dette projekt begyndte vi igen på flask. Denne gang skulle lave en api, altså et program som er en interface mellem brugeren og data. Vi skulle få data fra arduino. Vi valgte at lave en api som viser støjniveuaet i forskellige lokaler. Her brugte vi arduino til at måle støjnivueaet og skabe en database og Flask for hjemmesiden. Vi lærte at sætte vores viden ind i noget større. For eksempel 3-lags-modellen. Vi lærte også hvordan en database og programmet brude være strukturetet. Vi lærte også hvordan vi kunne sætte vores api på python.anywhere så folk havde adgang til vores side.
+
+Vi endte med en api som så sådan ud her:
+<img width="363" height="1060" alt="image" src="https://github.com/user-attachments/assets/25db92f7-aad1-4005-bc20-e239462e5ea6" />
+
+Og når brugeren havde valgt tid, lokale, osv vil de få data ud som en graf, for eksempel:
+<img width="901" height="894" alt="image" src="https://github.com/user-attachments/assets/6dc68a12-3c1b-4554-bea2-a64c295af935" />
 
 
 
 
 
-# linux command eller SSH 13-03-2025
-Ved ikke hvad det er, og hvordan man starter det. Søgte på det men det var lykkes ikke. Derfor begyndte jeg bare på cybermesterskabene hvor jeg forsat fra sidst.
