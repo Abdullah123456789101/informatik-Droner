@@ -93,6 +93,14 @@ Vi endte med en api som så sådan ud her:
 Og når brugeren havde valgt tid, lokale, osv vil de få data ud som en graf, for eksempel:
 <img width="901" height="894" alt="image" src="https://github.com/user-attachments/assets/6dc68a12-3c1b-4554-bea2-a64c295af935" />
 
+link til repository: https://github.com/Abdullah123456789101/Larm 
+
+# Gates
+Vi blev introduceret til gates. Gates er dem som opbygger cpuerne i vores computer i dag. Vir lærte simple gates, såsom not,or,and,xor,nand, osv. Vi skulle så bruge vores viden om gates til at bygge en lommeregner eller adder 4 bit. Derefter en 8 bit adder, også 16 bit adder, osv. Jeg havde valgt at bruge det program som sebastian lauge havde vist i hans video " how do computers work". Vi lærte også om sandhedstabler som skal vise hvad outputtet vil være basert på input, for eksempel: 
+<img width="699" height="217" alt="image" src="https://github.com/user-attachments/assets/3291e778-9d43-4062-b2a4-197e18dea385" />
+
+Her er et screenshot a min 4 bit adder:
+<img width="1903" height="718" alt="image" src="https://github.com/user-attachments/assets/b9aaa10b-5ff2-4157-b451-b81c2724356c" />
 
 
 
