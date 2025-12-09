@@ -99,6 +99,8 @@ link til repository: https://github.com/Abdullah123456789101/Larm
 Vi blev introduceret til gates. Gates er dem som opbygger cpuerne i vores computer i dag. Vir lærte simple gates, såsom not,or,and,xor,nand, osv. Vi skulle så bruge vores viden om gates til at bygge en lommeregner eller adder 4 bit. Derefter en 8 bit adder, også 16 bit adder, osv. Jeg havde valgt at bruge det program som sebastian lauge havde vist i hans video " how do computers work". Vi lærte også om sandhedstabler som skal vise hvad outputtet vil være basert på input, for eksempel: 
 <img width="699" height="217" alt="image" src="https://github.com/user-attachments/assets/3291e778-9d43-4062-b2a4-197e18dea385" />
 
+Sandhedstabbeller viser hvordan outputet vil se ud i basert på inputet. Så for eksempel en not gate. Så står der hvis inputet er 0 så er output 1, hvis input er 1 så er output 0. Det betyder hvis output var en lampe og inputet var en lyskontakt Så når lyskontakten er ikke slået til, vil der være lys, hvis den er så er der ikke lys.
+
 Her er et screenshot a min 4 bit adder:
 <img width="1903" height="718" alt="image" src="https://github.com/user-attachments/assets/b9aaa10b-5ff2-4157-b451-b81c2724356c" />
 
