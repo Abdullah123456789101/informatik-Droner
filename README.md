@@ -95,7 +95,7 @@ Og når brugeren havde valgt tid, lokale, osv vil de få data ud som en graf, fo
 
 link til repository: https://github.com/Abdullah123456789101/Larm 
 
-# Gates
+# Gates 
 Vi blev introduceret til gates. Gates er dem som opbygger cpuerne i vores computer i dag. Vir lærte simple gates, såsom not,or,and,xor,nand, osv. Vi skulle så bruge vores viden om gates til at bygge en lommeregner eller adder 4 bit. Derefter en 8 bit adder, også 16 bit adder, osv. Jeg havde valgt at bruge det program som sebastian lauge havde vist i hans video " how do computers work". Vi lærte også om sandhedstabler som skal vise hvad outputtet vil være basert på input, for eksempel: 
 <img width="699" height="217" alt="image" src="https://github.com/user-attachments/assets/3291e778-9d43-4062-b2a4-197e18dea385" />
 
@@ -103,6 +103,55 @@ Sandhedstabbeller viser hvordan outputet vil se ud i basert på inputet. Så for
 
 Her er et screenshot a min 4 bit adder:
 <img width="1903" height="718" alt="image" src="https://github.com/user-attachments/assets/b9aaa10b-5ff2-4157-b451-b81c2724356c" />
+
+# Robotmæssigt samfundsperspektiv
+I dette forløb arbejdede vi med robotter i et samfundsmæssigt perspektiv. Vi skulle udvikle en ide til, hvordan robotter kan bruges i smafundet.
+
+Vi havde besøg fra Aarhus kommune og var også på besøg hos Capra Robotics. Her blev vi introduceret til, hvordan robotter allerede bliver brugt i det offentlige rum, og hvilke muligheder der er i fremtiden.
+
+Vi lærte især om aktører, altså hvilke personer og grupper der er relevante i et projekt. I vores projekt (robot skolepatrulje) var aktørene:
+- skolen
+- kommunen
+- Elever
+- Fodgængere
+- Billister
+- osv
+Vi arbejde også med ideer til, hvordan robotter kan løse samfundsproblemer, og hvordan man skal tage hensyn til brugere og omgivelser, og at man ikke bare kunne udvikle teknologi uden at tænke over de relevante grupper, personer eller orginasationer ens ide vil påvirke.
+
+Vi valgte at lave en robot skolepatrulje, som skal hjælpe-børn sikkert over vejen og samtidig vænne mennekser til, at robotter bliver en del af hverdagen.
+
+Vores ide var at lave en robot, som kan stå ved et fodgængerfelt og reagere på trafik og mennesker. Problemfomuleringen var: "Hvordan kan robotter bruges til at gøre det tydeligere, at børn krydser vejen, og samtidig vænne folk til robotter i det offentlige rum?"
+
+Projektet bestod af to dele. Robotten, altså alt hardware, som ESP32 mikrocontroller, Grove vision ai kamera, micro bit bil, arduino modul som kan registrere personer og estimere afstand.
+Og hjemmsiden software. Her er et billede af hjemmesiden
+<img width="361" height="370" alt="image" src="https://github.com/user-attachments/assets/6d6e5210-0bd6-4c32-afff-0adb9e83ccaa" />
+
+# Privacy og databrokering
+I dette forløb arbejdede vi med privacy og hvordan vores data bliver indsamlet og brugt på internettet. Vi så en video, der forklarede, hvordan virksomheder registrrerer vores adfærd online, for eksempel hvad vi klikker på, hvad vi søger efter, og hvor vi befinder os. Disse data bliver derefter brugt til blandt andet reklamer, anbefalinger og profilering.
+
+Vi lærte også om databrokere, som er virksomheder, der indsamler store mængder data om mennesker og sælger det videre til andre-virksomheder. Det betyder, at vores information kan blive delt og brugt, uden at vi nødvendigvis er klar over det.
+
+Videoen viste også nogle af de problemer, der kan være ved dette, såsom manglende privatliv, usikkerhed om hvem der har ens data, og risikoen for at data bliver misbrugt. Det kan også føre til, at man bliver påvirkert eller manipuleret gennem målrettede reklamer.
+
+Det fik mig til at tænke over, hvor meget data jeg selv deler på nettet, og hvor lidt kontrol man egentlig har over sine egne oplysninger. 
+
+# Eksamensprojekt - Smart drivhus
+I eksamensprojektet udvikelede vi et system for at drive et drivhus, ved at automatisere vanding og samtidig give brugeren mulighed for at overvåge og styre systemet. Vi byggede et system bestående af sensorer, en ESP32, relæ og en hjemmeside, som var forbundet gennem en backend.
+
+Sensorerne målte jordfugtighed, temperatur og luftfugtighed, og disse data blev sendt til vores server. På hjemmesiden kunne brugeren se mållingerne og enten lade systemet vande automatisk eller selv styre det manuelt. Systemet fungerede derfor som en kombination af hardware og software, hvor de forskellige dele arbejde sammen.
+
+Vi arbejdede iterativt gennem hele projektet, hvor vi startede med en simpel version og derefter løbende forbedrede systemet. Undervejs testede vi systemet og brugte feedback til at gøre det mere brugervenligt. 
+
+Her er billleder og videoer fra projektet:
+<img width="1920" height="1029" alt="image" src="https://github.com/user-attachments/assets/5d049c10-0e88-4284-af51-888970069562" />
+
+<img width="1913" height="1030" alt="image" src="https://github.com/user-attachments/assets/2cbe9a27-5db7-4552-af1b-81017a0f5a94" />
+
+https://www.youtube.com/watch?v=W4GXyA66lKs 
+
+
+
+
 
 
 
